@@ -18,7 +18,7 @@ public abstract class BaseTimeEntity {
     //@EntityListeners BaseTimeEntity클래스에 Auditing 기능을 포함시킨다.
 
     @CreatedDate
-    private LocalDateTime createDate;
+    private LocalDateTime createdDate;
 
     @LastModifiedDate
     private LocalDateTime modifiedDate;
