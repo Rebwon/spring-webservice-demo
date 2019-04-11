@@ -1,6 +1,5 @@
 package ko.maeng.webservice.web;
 
-import ko.maeng.webservice.domain.PostsRepository;
 import ko.maeng.webservice.domain.PostsSaveReqDto;
 import ko.maeng.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class WebRestController {
 
-    private PostsRepository postsRepository;
     private PostsService postsService;
 
     @GetMapping("/hello")
